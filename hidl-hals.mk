@@ -85,12 +85,12 @@ PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
     
 # NFC
-PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.1-service
+#PRODUCT_PACKAGES += \
+#    android.hardware.nfc@1.1-service
 
 # NFC-Secure Element
-PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0
+#PRODUCT_PACKAGES += \
+#    android.hardware.secure_element@1.0
     
 # Netutils
 PRODUCT_PACKAGES += \
