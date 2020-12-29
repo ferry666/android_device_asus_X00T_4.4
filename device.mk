@@ -85,11 +85,6 @@ PRODUCT_PACKAGES += \
     libxml2 \
     GoogleCameraGo
 
-# Connectivity Engine support (CNE)
-PRODUCT_PACKAGES += \
-    cneapiclient \
-    com.quicinc.cne
-
 # default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
 
@@ -165,12 +160,6 @@ PRODUCT_PACKAGES += \
 	qti-telephony-utils \
 	qti_telephony_utils.xml
 
-# IPv6
-PRODUCT_PACKAGES += \
-    ebtables \
-    ethertypes \
-    libebtc
-
 # IRQ
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
@@ -222,11 +211,6 @@ PRODUCT_COPY_FILES += \
 #    NfcNci \
 #    SecureElement \
 #    Tag
-
-# Netutils
-PRODUCT_PACKAGES += \
-    libandroid_net \
-    netutils-wrapper-1.0
 
 # OMX
 PRODUCT_PACKAGES += \
