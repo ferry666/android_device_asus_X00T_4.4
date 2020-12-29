@@ -82,7 +82,6 @@ $(call inherit-product, vendor/asus/X00T/X00T-vendor.mk)
 # Camera
 PRODUCT_PACKAGES += \
     libgui_vendor \
-    libxml2 \
     GoogleCameraGo
 
 # default is nosdcard, S/W button enabled in resource
@@ -366,9 +365,7 @@ PRODUCT_BOOT_JARS += \
 # TetherOffload
 PRODUCT_PACKAGES += \
     ipacm \
-    IPACM_cfg.xml \
-    libipanat \
-    liboffloadhal
+    IPACM_cfg.xml
 
 # Thermal
 PRODUCT_PACKAGES += \
