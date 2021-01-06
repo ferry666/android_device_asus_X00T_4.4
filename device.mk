@@ -384,7 +384,6 @@ PRODUCT_PACKAGES += \
 # libstdc++: camera.sdm660
 PRODUCT_PACKAGES += \
     libstdc++.vendor \
-    vndk_package \
     vndk-ext
 
 # WFD
