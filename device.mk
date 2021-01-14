@@ -82,7 +82,6 @@ $(call inherit-product, vendor/asus/X00T/X00T-vendor.mk)
 # Camera
 PRODUCT_PACKAGES += \
     libgui_vendor \
-    libxml2 \
     GoogleCameraGo
 
 # default is nosdcard, S/W button enabled in resource
