@@ -42,9 +42,6 @@
     <!-- Indicates that connected MAC randomization is supported on this device -->
     <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
 
-    <!-- Indicates that p2p MAC randomization is supported on this device -->
-    <bool name="config_wifi_p2p_mac_randomization_supported">true</bool>
-
     <!-- Indicates that AP mode MAC randomization is supported on this device -->
     <bool name="config_wifi_ap_mac_randomization_supported">false</bool>
 
@@ -56,9 +53,6 @@
 
     <!-- Integer indicating maximum hardware supported client number of soft ap -->
     <integer translatable="false" name="config_wifiHardwareSoftapMaxClientCount">32</integer>
-
-    <!-- Boolean indicating whether framework needs to set the tx power limit for meeting SAR requirements -->
-    <bool translatable="false" name="config_wifi_framework_enable_sar_tx_power_limit">true</bool>
     
     <!-- Enable adding minimum confirmation duration when sending network score to connectivity service. -->
     <bool translatable="false" name="config_wifiMinConfirmationDurationSendNetworkScoreEnabled">true</bool>
