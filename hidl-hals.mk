@@ -84,6 +84,10 @@ PRODUCT_PACKAGES += \
 # NFC-Secure Element
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0
+    
+# Perf
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.0.vendor
 
 # Power
 PRODUCT_PACKAGES += \
