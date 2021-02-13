@@ -147,9 +147,6 @@ ro.additionalbutton.operation=0
 # NFC
 ro.hardware.nfc_nci=nqx.default
 
-# QC framework value-adds
-ro.vendor.qti.va_odm.support=1
-
 # QTI
 ro.vendor.extension_library=libqti-perfd-client.so
 
