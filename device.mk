@@ -357,9 +357,6 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml
 
 # Thermal
-PRODUCT_PACKAGES += \
-    thermal.sdm660
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf    
 
