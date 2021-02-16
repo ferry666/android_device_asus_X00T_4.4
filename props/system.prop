@@ -143,6 +143,12 @@ persist.data.df.dev_name=rmnet_usb0
 # 2 or anything else is camera2
 persist.radio.VT_CAM_INTERFACE=2
 
+# Surfaceflinger
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+ro.surface_flinger.max_virtual_display_dimension=4096
+ro.surface_flinger.vsync_event_phase_offset_ns=2000000
+ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
+
 #property to enable user to access Google WFD settings
 persist.debug.wfd.enable=1
 #Enable stm-events
