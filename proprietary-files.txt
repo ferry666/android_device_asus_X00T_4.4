@@ -58,7 +58,6 @@ vendor/firmware/tfa98xx.cnt
 etc/permissions/audiosphere.xml
 framework/audiosphere.jar
 vendor/bin/audioflacapp
-vendor/lib/hw/audio.primary.sdm660.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -71,9 +70,7 @@ vendor/lib/libaudioparsers.so
 vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
-vendor/lib/libtinyxml.so
 vendor/lib/libtinycompress.so
-vendor/lib64/hw/audio.primary.sdm660.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
@@ -83,7 +80,6 @@ vendor/lib64/libaudioalsa.so
 vendor/lib64/libaudioparsers.so
 -vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libqtigef.so
-vendor/lib64/libtinyxml.so
 vendor/lib64/libtinycompress.so
 
 # Audio-FX
