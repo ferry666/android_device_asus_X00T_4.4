@@ -21,9 +21,6 @@
 <resources>
     <!-- Flag indicating if hac is enabled -->
     <bool name="hac_enabled">true</bool>
-
-    <!-- Show enabled lte option for lte device -->
-    <bool name="config_enabled_lte" translatable="false">true</bool>
     
      <!-- Determine whether we should show the "listen for instructions" screen after
          successfully placing the OTA call -->
