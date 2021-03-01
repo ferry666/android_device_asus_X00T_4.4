@@ -183,7 +183,7 @@ persist.vendor.radio.apm_sim_not_pwdn=1
 vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 
 # Sensor
-ro.vendor.qti.sdk.sensors.gestures=true
+ro.vendor.qti.sdk.sensors.gestures=false
 ro.vendor.qti.sensors.cmc=false
 ro.vendor.qti.sensors.facing=false
 
