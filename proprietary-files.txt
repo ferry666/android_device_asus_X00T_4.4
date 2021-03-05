@@ -1094,7 +1094,9 @@ vendor/lib/libvqzip.so
 
 # Perf
 vendor/bin/energy-awareness
+vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
 vendor/bin/msm_irqbalance
+vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
 vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/targetconfig.xml
