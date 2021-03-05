@@ -186,6 +186,8 @@ ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.vendor.qti.sensors.dev_ori=true
 #Persistent Motion Detector
 ro.vendor.qti.sensors.pmd=true
+#Significant Motion Detector
+ro.vendor.qti.sensors.smd=false
 #Stationary Detector
 ro.vendor.qti.sensors.sta_detect=true
 #Motion Detector
