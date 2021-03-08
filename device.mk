@@ -84,7 +84,7 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     GCamGOPrebuilt
 
-# default is nosdcard, S/W button enabled in resource
+# Default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
 
 # Device uses high-density artwork where available
