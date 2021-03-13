@@ -87,7 +87,7 @@ PRODUCT_PACKAGES += \
     
 # Perf
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.0
+    vendor.qti.hardware.perf@2.0.vendor
 
 # Power
 PRODUCT_PACKAGES += \
