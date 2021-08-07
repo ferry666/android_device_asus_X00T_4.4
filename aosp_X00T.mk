@@ -31,6 +31,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Gapps Config
 TARGET_GAPPS_ARCH := arm64
 
+# ZenParts
+$(call inherit-product-if-exists, packages/apps/ZenParts/zenparts.mk)
+
 PRODUCT_BRAND := ASUS
 PRODUCT_DEVICE := X00T
 PRODUCT_MANUFACTURER := ASUS

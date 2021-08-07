@@ -198,4 +198,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 
+# Inherit from ZenParts
+include packages/apps/ZenParts/BoardConfigZen.mk
+
 -include vendor/asus/X00T/BoardConfigVendor.mk
